@@ -364,6 +364,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: lightgreen;
 }
 
 h2 {
@@ -408,5 +409,21 @@ main {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.link {
+  color: black;
+  -webkit-transition: 0.3s color cubic-bezier(1, 0.54, 0.37, 0.99);
+  transition: 0.3s color cubic-bezier(1, 0.54, 0.37, 0.99);
+}
+
+.link:hover {
+  color: #003cc7;
 }
 /*# sourceMappingURL=main.css.map */

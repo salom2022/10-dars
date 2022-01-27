@@ -1,0 +1,38 @@
+// .box-2 {
+//     display: none;
+// }
+
+// .wrapper:hover .box-2 {
+//     display: block;
+// }
+
+// .wrapper:hover .box-1 {
+//     display: none;
+// }
+
+// svg:hover {
+//     color: mediumblue;
+// }
+
+// .box-1:hover {
+//     fill: mediumblue;
+// }
+
+// .box-1:hover path {
+//     fill: mediumblue;
+// }
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.link {
+    color: black;
+    transition: 0.3s color cubic-bezier(1,.54,.37,.99);
+}
+
+.link:hover {
+    color: rgb(0, 60, 199);
+}
