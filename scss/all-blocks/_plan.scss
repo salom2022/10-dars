@@ -1,0 +1,31 @@
+.plan {
+
+    &__container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__left {
+        max-width: 255px;
+        width: 100%;
+    }
+
+    &__list {
+    }
+
+    &__item {
+    }
+
+    &__item-link {
+    }
+
+    &__number {
+    }
+
+    &__item-text {
+    }
+
+    &__right {
+    }
+}
+

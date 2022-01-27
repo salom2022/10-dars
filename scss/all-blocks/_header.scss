@@ -30,9 +30,19 @@
 
 .link {
     color: black;
-    transition: 0.3s color cubic-bezier(1,.54,.37,.99);
+    transition: 0.5s all cubic-bezier(1,.54,.37,.99);
 }
 
-.link:hover {
-    color: rgb(0, 60, 199);
+// .link:hover {
+//     color: rgb(0, 60, 199);
+    
+// }
+.icon {
+    transition: 0.5s all ease;
+
+    &:hover {
+        color: red;
+        transform: translate(5px, 20px);
+        transition: 0.5s all ease;
+    }
 }

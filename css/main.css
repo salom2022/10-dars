@@ -355,7 +355,7 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Barlow', 'Arial', sans-serif;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -419,11 +419,34 @@ main {
 
 .link {
   color: black;
-  -webkit-transition: 0.3s color cubic-bezier(1, 0.54, 0.37, 0.99);
-  transition: 0.3s color cubic-bezier(1, 0.54, 0.37, 0.99);
+  -webkit-transition: 0.5s all cubic-bezier(1, 0.54, 0.37, 0.99);
+  transition: 0.5s all cubic-bezier(1, 0.54, 0.37, 0.99);
 }
 
-.link:hover {
-  color: #003cc7;
+.icon {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.icon:hover {
+  color: red;
+  -webkit-transform: translate(5px, 20px);
+          transform: translate(5px, 20px);
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.plan__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.plan__left {
+  max-width: 255px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
